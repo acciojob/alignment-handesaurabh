@@ -1,15 +1,16 @@
 /*  your css code here. If applicable */
- table.middle {
+      table.middle {
             border: 1px solid black;
             border-spacing: 1px;
             padding: 1px;
             width: 100%;
             text-align: center;
+            border-collapse: collapse; /* ensures border and padding render correctly */
         }
 
         td {
             border: 1px solid black;
-            padding: 10px;
+            padding: 1px !important; /* force 1px padding */
         }
 
         .center {
